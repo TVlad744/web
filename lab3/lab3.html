@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lab3</title>
+</head>
+<body>
+	<form id="order"></form>
+	<table border="1px" width="50%">
+		<tr>
+			<th colspan="2">Pizza Shop 2.0</th>
+		</tr>
+		<tr>
+			<td>
+				Name
+			</td>
+			<td>
+				<input type="text" name="name" required placeholder="Name Surname">
+
+			</td>
+		</tr>
+		<tr>
+			<td>Pizza Topping</td>
+			<td>
+				<input type="radio" id="supreme" name="topping" value="Supreme">
+  				<label for="supreme">Supreme</label><br>
+  				<input type="radio" id="vegeterian" name="topping" value="Vegetarian">
+  				<label for="vegeterian">Vegeterian</label><br>
+  				<input type="radio" id="hawaiian" name="topping" value="Hawaiian">
+  				<label for="hawaiian">Hawaiian</label>
+			</td>
+		</tr>
+		<tr>
+			<td>Pizza Sauce</td>
+			<td>
+				<select name="sauce" id="sauce">
+					<option value="pesto">Pesto</option>
+					<option value="garlic">White Garlic Sauce.</option>
+					<option value="hummus">Hummus</option>
+					<option value="buffalo">Buffalo Sauce</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Optional Extras</td>
+			<td>
+				<input type="checkbox" id="cheese" name="cheese" value="Cheese">
+  				<label for="gluten">Extra Cheese</label>
+  				<input type="checkbox" id="gluten" name="gluten" value="Gluter">
+  				<label for="gluten">Gluten Free Base</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Delivery Instructions:<br>
+				<textarea maxlength="200" cols="75" rows="3" placeholder="Specify the characteristics of your home so that the courier can recognize it"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" name="Send my Order" value="Send my order">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

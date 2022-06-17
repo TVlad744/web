@@ -1,0 +1,8 @@
+<svg width="120" height="5" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="0" stroke-dasharray="5,2,2,2,2,2" rx="3" id="svg_2" height="5" width="120" y="0" x="0" stroke="#000" fill="#304cfd"/>
+  <rect rx="3" id="svg_4" height="5" width="50" y="0" x="0" stroke-dasharray="5,2,2,2,2,2" stroke-width="0" stroke="#000" fill="#ff965d"/>
+ </g>
+</svg>

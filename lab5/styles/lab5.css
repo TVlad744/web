@@ -1,0 +1,157 @@
+body{
+    background-color: #eeeef5;
+    color: #6e7c8d;
+}
+
+h1, h3{
+    color: #44566c;
+}
+
+body > section{
+    margin: auto;
+    margin-top: 20px;
+
+    width: 1110px;
+
+    display: grid;
+    grid: "aside nav"
+    "aside article";
+    grid-template-rows: 50px 800px;
+    grid-template-columns: 400px 700px;
+    gap: 10px;
+
+    background-color: white;
+
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+nav{
+    grid-area: nav;
+
+    text-align: right;
+}
+
+.nav_butt{
+    font-size: 21px;
+
+    display: inline-flex;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    text-decoration: none;
+    color: #6e7c8d;
+}
+
+.nav_butt:hover{
+    color: white;
+    background-color: #304cfd;
+    border-radius: 20px;
+}
+
+
+aside{
+    grid-area: aside;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f5f8f9;
+
+    padding-top: 50px;
+
+    border-radius: 0 20px 20px 0;
+}
+
+aside > *{
+    margin-bottom: 10px;
+}
+
+#avatar{
+    width: 300px;
+
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+.pic{
+    width: 24px;
+    padding-right: 5px;
+}
+
+#pos{
+    text-align: center;
+
+    background-color: #e9edf0;
+
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+
+    border-radius: 20px;
+}
+
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#down{
+    background-color: #304cfd;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    color: white;
+
+    text-align: center;
+
+    border-radius: 20px;
+}
+
+article{
+    grid-area: article;
+}
+
+#grad{
+    background: linear-gradient(to right, #ff965e, #2f4bf9);
+    
+    height: 5px;
+    width: 50px;
+
+    border-radius: 5px;
+    border: 0px;
+
+    align-items: left;
+    margin-left: 5px;
+}
+
+#tiles{
+    display: grid;
+    grid-template-rows: 175px 175px;
+    grid-template-columns: 325px 325px;
+    gap: 20px;
+    padding: 0 10px 10px 10px;
+}
+
+.tile{
+    border: solid 5px #f5f8f9;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.tile > h3, .tile > p{
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.tile > img{
+    width: 52px;
+}
