@@ -13,7 +13,7 @@ function Test(num) {
 function SumSimple() {
 	let arr = [];
 
-	input:for(let i = 1; ; i++)
+	input:for(let i = 2; ; i++)
 	{
 		for (let j = 1; j <= i; j++)
 		{
